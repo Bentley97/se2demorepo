@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3003
  
 var courses_offered = [{id: 21, name: 'HCI'},
 {id: 28, name:'sweng'}]
