@@ -2,10 +2,9 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 3005
  
-var courses_offered = [{id: 21, name: 'HCI'},
-{id: 28, name:'sweng'}]
+var courses_offered = [{id: 21, name: 'HCI'}, {id: 28, name:'sweng'}, {id: 50, name: 'LFC'}]
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello Prova!!!'))
  
 app.get('/courses', (req, res) => {
    res.json(courses_offered)
